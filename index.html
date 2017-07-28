@@ -25,11 +25,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-            <form class="navbar-form navbar-left">
+            <form name="userInput" class="navbar-form navbar-left">
                 <div class="form-group">
                     <input id="userInput" type="text" class="form-control font" placeholder="Movie Title">
                 </div>
-                <button id="findmovies" type="submit" class="btn font" onclick="getData()">Find Movie</button>
+                <button class="btn font findmovies" type="submit"  onclick="getData();document.userInput.reset();">Find Movie</button>
+                <input class="btn font findmovies"type="button" value="Refresh Page" onClick="window.location.reload()">
             </form>
         </div>
         <!-- /.navbar-collapse -->

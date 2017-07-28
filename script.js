@@ -1,3 +1,4 @@
+
 function getData() {
     var userInput = document.getElementById("userInput").value
     console.log("INPUT", userInput)
@@ -16,11 +17,12 @@ function getData() {
 
                     var outerDiv = document.createElement("div")
                     outerDiv.setAttribute('class', "col-sm-4")
-                    outerDiv.style.minHeight = "200px";
                     container.appendChild(outerDiv)
 
                     var innerDiv1 = document.createElement("div")
                     innerDiv1.setAttribute('class', "well grow")
+                    innerDiv1.style.minHeight = "275px"
+                    innerDiv1.style.maxHeight = "275px"
                     outerDiv.appendChild(innerDiv1)
 
 
@@ -56,7 +58,7 @@ function getData() {
                     description.appendChild(text2)
                     innerDiv4.appendChild(description)
 
-                        console.log(outerDiv)
+                    console.log(outerDiv)
                 }
                 console.log(json)
 
@@ -70,4 +72,4 @@ function getData() {
 
 }
 
-
+ 

@@ -61,12 +61,12 @@ font-family: FontAwesome;
     min-height: 50px;
 }
 
-#findmovies{
+.findmovies{
     background-color:#FFFFFF;
     color: black;
     border: 2px solid #555555;
 }
-#findmovies:hover {
+.findmovies:hover {
     background-color: #555555;
     color: white;
 }
@@ -83,7 +83,7 @@ font-family: FontAwesome;
     font-weight:bold;
 }
 .fontsmall{
-    font-size:8px;
+    font-size:10px;
 }
 .grow:hover{
       -webkit-transform: scale(1.3);
